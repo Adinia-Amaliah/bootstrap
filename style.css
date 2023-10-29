@@ -1,0 +1,123 @@
+.navbar {
+  background-color: #007bff; 
+}
+
+.navbar-brand {
+  color: #fff; 
+  font-size: 24px; 
+  font-weight: bold; 
+}
+
+.navbar-toggler-icon {
+  background-color: hsl(236, 45%, 52%); 
+}
+
+.nav.nav-pills .nav-link {
+  color: #fff; 
+}
+
+.nav.nav-pills .nav-item .nav-link.active {
+  background-color: hsl(236, 100%, 41%); 
+}
+
+.collapse.navbar-collapse {
+  justify-content: flex-end; 
+}
+
+.nav.nav-pills .nav-item {
+  padding: 10px 15px; 
+}
+
+.nav.nav-pills .nav-link:hover {
+  background-color: hsl(236, 100%, 41%); 
+  color: #fff; 
+}
+
+
+.Isi {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.kotak,
+.agenda {
+  flex-basis: 48%;
+}
+
+.new,
+.box {
+  border: 2px solid #0000006e;
+  padding: 13px;
+  margin-bottom: 12px;
+}
+
+.agenda.lain {
+  border: 2px solid rgba(0, 0, 0, 0.443);
+  padding: 13px;
+  margin-bottom: 12px;
+}
+
+.box {
+  display: block;
+  color: rgb(255, 255, 255);
+  background-color: #57535367;
+  border: visible;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.box:hover {
+  background-color: hsl(236, 100%, 41%);
+}
+
+.lain {
+  display: block;
+  color: hwb(0 100% 0%);
+  background-color: #57535367;
+  border: visible;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.lain:hover {
+  background-color: hsl(236, 100%, 41%);
+}
+
+.new .box h2 {
+  margin-top: 5px;
+}
+
+.agenda .lain h2 {
+  margin-top: 14px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: hsl(301, 92%, 23%);
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .dashboard {
+    text-align: center;
+  }
+
+  .dashboard a {
+    float: none;
+    display: block;
+    width: 100%;
+  }
+
+  .Isi {
+    flex-direction: column;
+  }
+
+  .kotak,
+  .agenda {
+    flex-basis: 100%;
+  }
+}
